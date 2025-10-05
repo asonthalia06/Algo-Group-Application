@@ -13,6 +13,8 @@ print("")
 # test stack creation and pushing values
 print("Test stack push:")
 stackA = IntStack()
+try: stackA.push("hello")
+except TypeError as e: print(e) # error
 stackA.push(5)
 stackA.push(10)
 stackA.push(15) # stack is now 5,10,15
