@@ -27,6 +27,10 @@ class IntStack:
     # method to add values to the top of the stack
     def push(self, val):
 
+        # type checking
+        if not isinstance(val, int):
+            raise TypeError("Error, value must be an integer.")
+            
         # use .next to insert a new node
         newNode = Node(val, self.dummy.next)
         self.dummy.next = newNode
