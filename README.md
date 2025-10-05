@@ -16,22 +16,20 @@ testing terminal output:
 
 aaravsonthalia@MacBook-Air-295 algo-group-take-home % python3 testing.py
 
-Test stack creation and pop/peek from empty stack:
-Error, pop from empty stack.
-Error, peek from empty stack.
+Test stack creation and pop/peek from empty stack:  
+Error, pop from empty stack.  
+Error, peek from empty stack.  
 
-Test stack push:
-Stack A peek:  15
+Test stack push:  
+Stack A peek:  15  
 
-Test stack pop, peek, and dynamic resizing:
-Stack A size:  3
-Stack A pop:  15
-Stack A size:  2
-Stack A peek:  10
+Test stack pop, peek, and dynamic resizing:  
+Stack A size:  3  
+Stack A pop:  15  
+Stack A size:  2  
+Stack A peek:  10  
 
-Test draining the stack to empty then raising errors:
-Stack A size:  0
-Error, pop from empty stack.
-Error, peek from empty stack.
-
-aaravsonthalia@MacBook-Air-295 algo-group-take-home % 
+Test draining the stack to empty then raising errors:  
+Stack A size:  0  
+Error, pop from empty stack.  
+Error, peek from empty stack.  
