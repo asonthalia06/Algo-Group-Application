@@ -21,6 +21,7 @@ Error, pop from empty stack.
 Error, peek from empty stack.  
 
 Test stack push:  
+Error, value must be an integer.  
 Stack A peek:  15  
 
 Test stack pop, peek, and dynamic resizing:  
